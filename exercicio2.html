@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Avaliativo</title>
+</head>
+<body>
+    <h1>Formulário 1</h1>
+    <form action="http://confirmar.animavite/processa.php" method="post" name="formulario1"></form>
+    <fieldset>
+        <legend>Informações do Aquário</legend>
+        <label for="ph" style="font-weight: bold">Ph do Aquário:</label><br>
+        <input type="radio" id="acido" name="ph" value="acido">
+        <label for="acido">Ácido</label>
+        <input type="radio"  id="alcalino" name="ph" value="alcalino">
+        <label for="Alcalino">Alcalino</label>
+        <fieldset>
+            <legend>Peixes</legend>
+            <label for="quantidade">Quantidade:</label>
+            <input type="text" name="quantidade" id="quantidade"><br>
+            <label for="especie">Espécie:</label>
+            <select name="especie" id="especie">
+                <option value="espada">Espada</option>
+                <option value="molinesia">Molinésia</option>
+                <option value="plati">Plati</option>
+            </select><br>
+        </fieldset>
+        <label for="outros">Outros:</label><br>
+            <input type="checkbox" id="pedras" name="outros" value="pedras">
+            <label for="pedras">Pedras</label><br>
+            <input type="checkbox" name="outros" id="plantas" value="plantas">
+            <label for="plantas">Plantas</label>
+    </fieldset>
+</body>
+</html>
