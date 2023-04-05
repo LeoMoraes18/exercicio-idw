@@ -26,11 +26,34 @@
         <fieldset>
             <legend>Dados profissionais</legend>
             <label for="cargo">Natureza do Cargo</label><br>
-            <input type="radio" name="cargo" id="gerencia">
-            <label for="gerenccia">Gerência</label>
-            
-            
+            <input type="radio" name="cargo" value="gerencia" checked>
+            <label for="gerencia">Gerência</label>
+            <input type="radio" name="cargo" value="Financeiro">
+            <label for="financeiro">financeiro</label>
+            <input type="radio" name="cargo" value="Recepcao">
+            <label for="recepcao">Recepção</label>
+            <input type="radio" name="cargo" value="administrativo">
+            <label for="administrativo">Administrativo</label>
+            <input type="radio" name="cargo" value="juridico">
+            <label for="juridico">Jurídico</label>
+            <br>
+            <label for="interesse">Área de interesse</label><br>
+            <input type="checkbox" name="interesse" value="computacao">
+            <label for="computacao">Computação</label>
+            <input type="checkbox" name="interesse" value="biologia">
+            <label for="biologia">Biologia</label>
+            <input type="checkbox" name="interesse" value="meioAmbiente">
+            <label for="meioAmbiente">Meio Ambiente</label>
+            <input type="checkbox" name="interesse" value="engenharia">
+            <label for="engenharia">Engenharia</label>
+            <input type="checkbox" name="interesse" value="historia">
+            <label for="historia">História</label>
+            <br>
+            <label for="minicurriculo">Mini-currículo:</label>
+            <textarea name="minicurriculo" cols="60" rows="5"></textarea>
         </fieldset>
+        <input type="submit" name="enviar">
+        <input type="reset" name="resetar" value="Limpar">
     </form>
 </body>
 </html>

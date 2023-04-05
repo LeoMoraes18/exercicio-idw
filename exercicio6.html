@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Avaliativo</title>
+</head>
+<body>
+    <h1>Formulário 5</h1>
+    <h4 style="background-color: rgb(155, 146, 15);">SISTEMA DE GESTÃO ACADÊMICA</h4>
+    <h3>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h3>
+    <form action="http://confirmar.animavite.com/processa.php" method="post">
+        <label for="login">Login</label>
+        <input type="text" name="login"><br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha"><br>
+        <label for="status">Status</label>
+        <select name="status">
+            <option value="inativo">Inativo</option>
+        </select><br>
+        <label for="tipo">Tipo</label>
+        <input type="radio" name="tipo" value="tecnico">
+        <label for="tipo">Técnico</label>
+        <input type="radio" name="tipo" value="professor">
+        <label for="tipo">Professor</label>
+        <input type="radio" name="tipo" value="aluno">
+        <label for="tipo">Aluno</label>
+        <br>
+        <label for="criacao">Data Criação</label>
+        <input type="text" name="criacao"><br>
+        <label for="perfil">Perfil</label>
+        <input type="radio" name="perfil" value="convidado">
+        <label for="perfil">Convidado</label>
+        <input type="radio" name="perfil" value="Administrador">
+        <label for="perfil">Administrador</label><br>
+        <label for="observacoes">Observações</label>
+        <textarea name="observacoes" id="" cols="30" rows="6"></textarea><br><br>
+        <label for="modulos">Módulos</label><br>
+        <input type="checkbox" name="modulos" value="compras">
+        <label for="modulos">Compras</label>
+        <input type="checkbox" name="modulos" value="Biblioteca">
+        <label for="modulos">Biblioteca</label>
+        <input type="checkbox" name="modulos" value="academico">
+        <label for="">Acadêmico</label>
+        <input type="checkbox" name="modulos" value="documentacao">
+        <label for="modulos">Documentação</label>
+        <input type="checkbox" name="modulos" value="recursos humanos">
+        <label for="modulos">Recuros Humanos</label>
+        <br>
+        <input type="submit" name="enviar" value="Cadastrar">
+        <input type="reset" name="resetar" value="Excluir">
+    </form>
+</body>
+</html>
